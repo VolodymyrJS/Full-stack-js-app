@@ -1,0 +1,20 @@
+{
+  "name": "full-stack-app",
+  "version": "1.0.0",
+  "description": "Full-stack-js-app React, NodeJS, ExpressJS, MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u0016https://github.com/NaPrikole/Full-stack-js-app"
+  },
+  "keywords": [
+    "React",
+    "Node",
+    "Mongo"
+  ],
+  "author": "Vladimir Ponomarenko",
+  "license": "ISC"
+}
