@@ -19,9 +19,12 @@
   "author": "Vladimir Ponomarenko",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.19.0",
     "ejs": "^2.6.2",
     "express": "^4.17.1",
+    "json-loader": "^0.5.7",
     "mongodb": "^3.3.0-beta2",
+    "node-sass-middleware": "^0.11.0",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"

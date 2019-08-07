@@ -1,0 +1,24 @@
+{
+  "contests": [
+    {
+      "id": 1,
+      "categoryName": "Category_1",
+      "contestName": "Contest_1"
+    },
+    {
+      "id": 2,
+      "categoryName": "Category_2",
+      "contestName": "Contest_2"
+    },
+    {
+      "id": 3,
+      "categoryName": "Category_3",
+      "contestName": "Contest_3"
+    },
+    {
+      "id": 4,
+      "categoryName": "Category_4",
+      "contestName": "Contest_4"
+    }
+  ]
+}
