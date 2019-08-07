@@ -4,7 +4,8 @@
   "description": "Full-stack-js-app React, NodeJS, ExpressJS, MongoDB",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon --exec babel-node server.js --ignore public/",
+    "dev": "webpack -wd"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,28 @@
     "Mongo"
   ],
   "author": "Vladimir Ponomarenko",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "mongodb": "^3.3.0-beta2",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.2",
+    "babel-loader": "^8.0.6",
+    "eslint": "^6.1.0",
+    "eslint-plugin-react": "^7.14.3",
+    "nodemon": "^1.19.1",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6"
+  }
 }
